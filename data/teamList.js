@@ -5,7 +5,7 @@ const teamList = mongoCollections.teamList;
 const { ObjectId } = require('mongodb');
 
 module.exports = {
-    create: async (teamName, league, content) =>{
+    create: async (teamName, league, sport, season) =>{
         if(!teamName){
             throw "Must provide a team name";
         }

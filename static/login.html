@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/public/site.css">
+    <link rel="stylesheet" href="/public/css/site.css">
 </head>
 
 <body class="home">
@@ -18,16 +18,17 @@
             <header>
                 <h2>Welcome!</h2>
             </header>
-            <form method="get" action="/search/">
+            <form method="post" action="/users/">
                 Login:<br>
-                <input type="username" name="username">
+                <input type="text" name="username">
                 <br>
                 <input type="password" name="password">
                 <br><br>
                 <input type="submit" value="Submit">
             </form> 
+            <p><a href="./register">Create New User</a></p>
             <footer>
-                <p>Created by Akshay Sampath (2019)</p>
+                <p class="author">Created by Akshay Sampath (2019)</p>
             </footer>
         </article>
     </main>

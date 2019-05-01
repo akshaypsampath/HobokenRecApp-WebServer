@@ -1,0 +1,59 @@
+main{
+    padding: 15%;
+    padding-top: 0pt;
+}
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+h2 {
+    text-align: left;
+    font-size: 20pt;
+    font-weight: 600;
+    color: firebrick;
+}
+.is-prime{
+    color: #00E676;
+}
+.not-prime{
+    color: #FF3D00;
+}
+body{
+    background-color: rgb(247, 197, 140);
+    padding: 10pt;
+    padding-top: 2pt;
+}
+
+p{
+    font-size: 12pt;
+    font-weight: 200;
+    color: rgb(141, 139, 139);
+}
+label{
+    font-style: italic;
+}
+article{
+    background-color: rgb(240, 228, 215);
+    padding: 5pt;
+    padding-left: 10pt;
+    border-style: double;
+}
+footer{
+    text-align: center;
+}
+.author{
+    font-size: 10pt;
+}
+ol{
+    font-size: 14pt;
+    font-weight: 400;
+
+    color: white;
+}
+li{
+    font-size: 12pt;
+    font-weight: 550;
+    text-decoration: none;
+}

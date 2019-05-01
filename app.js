@@ -11,11 +11,14 @@ var Strategy = require('passport-local').Strategy;
 const configRoutes = require("./routes");
 const exphbs = require("express-handlebars");
 
+require("./config/auth/passport");
+
 console.log(app.settings.env)
 
 app.use("/public", static);
+app.use("/static", static);
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: false }));
 
 var sessionOpts = {
   saveUninitialized: true, // saved new sessions
@@ -29,10 +32,10 @@ var sessionOpts = {
 // // app.use(bodyParser.urlencoded({extended: true}))
 // app.use(cookieParser(sessionOpts.secret))
 // app.use(session(sessionOpts))
-app.use(session(sessionOpts))
+
 
 app.use(passport.initialize())
-app.use(passport.session())
+// app.use(passport.session())
 
 app.engine("handlebars", exphbs({ defaultLayout: "main"}));
 app.set("view engine", "handlebars");
@@ -41,11 +44,11 @@ app.set("view engine", "handlebars");
 //   res.render('home');
 // });
 
-app.post('/login', 
-  passport.authenticate('local', { failureRedirect: '/login' }),
-  function(req, res) {
-    res.redirect('/');
-  });
+// app.post('/login', 
+//   passport.authenticate('local', { failureRedirect: '/login' }),
+//   function(req, res) {
+//     res.redirect('/');
+//   });
 
 
 
