@@ -1,6 +1,6 @@
 //Using https://gist.github.com/paigen11/c72c8c20da9cd440f45025a1b05e5e58 as a starting point
 
-const jwtSecret =require('./jwtConfig');
+const jwtSecret =require('./jwtSecret');
 const bcrypt =require('bcrypt');
 
 // const mongoCollections = require("../db/mongoCollections");
@@ -18,7 +18,7 @@ const passport = require('passport'),
   
 //const User =  users;
 
- passport.use( //not currently in use - EXTRA FEATURE?
+ passport.use( 
   'register',
   new localStrategy(
     {
@@ -139,23 +139,35 @@ const opts = {
 passport.use(
   'jwt',
   new JWTstrategy(opts, async(jwt_payload, done) => {
+    console.log("auth middleware")
     try {
-        const User = await Users();
-        console.log(User);
-      User.findOne({
-        where: {
-          username: jwt_payload.id,
-        },
-      }).then(user => {
+        const user = await UsersData.find(jwt_payload.id);
+        console.log(user);
         if (user) {
-          console.log('user found in db in passport');
-          // note the return removed with passport JWT - add this return for passport local
-          done(null, user);
+            console.log('user found in db in passport');
+            // note the return removed with passport JWT - add this return for passport local
+            done(null, user);
         } else {
-          console.log('user not found in db');
-          done(null, false);
+            console.log('user not found in db');
+            done(null, false);
         }
-      });
+
+    //     const User = await Users();
+    //     console.log(User);
+    //   User.findOne({
+    //     where: {
+    //       username: jwt_payload.id,
+    //     },
+    //   }).then(user => {
+    //     if (user) {
+    //       console.log('user found in db in passport');
+    //       // note the return removed with passport JWT - add this return for passport local
+    //       done(null, user);
+    //     } else {
+    //       console.log('user not found in db');
+    //       done(null, false);
+    //     }
+    //   });
     } catch (err) {
       done(err);
     }

@@ -46,6 +46,43 @@ footer{
 .author{
     font-size: 10pt;
 }
+.nav-menu {
+    z-index: 9999;
+    overflow: visible;
+    width: 280px;
+    margin-top: 35px;
+    background-color: #758897;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
+    color: #fff;
+    text-align: center;
+    
+  }
+  .navbar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    border-bottom: 1px solid #697e90;
+    background-color: #697e90;
+  }
+
+.logo_wrapper {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+.logo_link_image {
+    -webkit-filter: saturate(0%) brightness(0%) invert(100%);
+    filter: saturate(0%) brightness(0%) invert(100%);
+    -webkit-perspective: 876px;
+    perspective: 876px;
+    width:60px;
+    padding-left: 20%;
+    
+  }
+  .w-hidden-main{display:none !important}@media screen and (max-width:991px){.w-container{max-width:728px}
+  .w-hidden-main{display:inherit !important}
+
 ol{
     font-size: 14pt;
     font-weight: 400;

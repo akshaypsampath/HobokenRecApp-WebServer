@@ -8,17 +8,32 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="/public/css/hobokennjsite.css">-->
     <link rel="stylesheet" href="/public/css/site.css">
+    
 </head>
 
 <body class="home">
+    <div ><!--class="navbar" -->
+        <a href="/" class="w-inline-block">
+            <div class="logo_wrapper">
+                <img src="/public/assets/Hoboken-city-logo.png"  alt="Hoboken Logo" class="logo_link_image w-hidden-medium w-hidden-small w-hidden-tiny">
+                <img src="/public/assets/Hoboken-logo_color-1.png"  alt="Hoboken Logo" class="logo_link_image w-hidden-main">
+            </div>
+        </a>
+        <div class="nav-menu">
+            <h1>Hoboken Rec App - Admin Site</h1>
+        </div>
+    </div>
     <main>
-        <h1>Hoboken Rec App - Admin Site</h1>
+        
         <article>
             <header>
-                <h2>Welcome!</h2>
+                <h2>Welcome!</h2> 
             </header>
-            <form method="post" action="/users/">
+            <form id="login" method="post" action="/users/">
                 Login:<br>
                 <input type="text" name="username">
                 <br>
@@ -32,6 +47,20 @@
             </footer>
         </article>
     </main>
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+     <!-- jQuery fallback -->
+     <script>
+         if (!window.jQuery) { document.write('<script src="/public/js/jquery.js"><\/script>'); }
+     </script>
+ 
+     <!-- Latest compiled and minified JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+         crossorigin="anonymous"></script>
+
+ 
 </body>
 
 </html>

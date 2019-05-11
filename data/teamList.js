@@ -1,10 +1,14 @@
 const mongoCollections = require("../config/db/mongoCollections");
-const teamList = mongoCollections.teamList;
-//const animalData = require("../data/animals");
-//const animalData = data.animals;
+const teamList = mongoCollections.TeamList;
 const { ObjectId } = require('mongodb');
+const rostersData = require("./rosters");
 
 module.exports = {
+    test: async()=>{
+        const teamListCollection = await teamList();
+        const tempTeam = await teamListCollection.find({ season: "2018-2019" }).toArray();
+        console.log(tempTeam)
+    },
     create: async (teamName, league, sport, season) =>{
         if(!teamName){
             throw "Must provide a team name";
@@ -32,9 +36,17 @@ module.exports = {
             teamName: teamName,
             league: league,
             sport: sport,
-            season: season  
+            season: season,  
+            playerList: []
         };
 
+        const prevEntry = await teamListCollection.find({teamName: teamName, league:league, sport: sport, season: season}).toArray();
+        // console.log("prevEntry: ",prevEntry.length);
+        if(prevEntry.length >0){ //avoid duplicate entries
+            // console.log(await teamListCollection.find({teamName: teamName, sport: sport, season: season}).toArray().size());
+            console.log("team already exists in this collection")
+            return;
+        }
         const insertData = await teamListCollection.insertOne(newTeam);
         if (insertData.count === 0) throw "Could not add team";
     
@@ -45,7 +57,7 @@ module.exports = {
         const team = await module.exports.read(idStr);
         return team;
     },
-    read: async(id) => {
+    async read(id) {
         if (!id) throw "Must provide a valid Id";
         if (typeof id != 'string') throw "Must provide an Id of string type";
         //console.log(id)
@@ -53,9 +65,23 @@ module.exports = {
 
         const teamListCollection = await teamList();
         const tempTeam = await teamListCollection.findOne({ _id: idObj });
-
+        console.log(tempTeam)
         
-        if (tempTeam === null) throw "No team with that Id";
+        // if (tempTeam === null) throw "No team with that Id";
+        //console.log(tempAnimal);
+        return tempTeam;
+    },
+    async readByName(name) {
+        if (!name) throw "Must provide a valid name";
+        if (typeof name != 'string') throw "Must provide a name of string type";
+        //console.log(id)
+        // const idObj = new ObjectId(id)
+
+        const teamListCollection = await teamList();
+        const tempTeam = await teamListCollection.findOne({ teamName: name });
+        console.log(tempTeam)
+        
+        // if (tempTeam === null) throw "No team with that Id";
         //console.log(tempAnimal);
         return tempTeam;
     },
@@ -80,66 +106,83 @@ module.exports = {
         //console.log(tempAnimal);
         return tempTeam;
     },
-    update: async(id, newTitle, newContent) => { //needs to be updated
+    updateName: async(id, teamName) => { //needs to be updated
         if (!id) throw "Must provide a valid Id";
         if (typeof id != 'string') throw "Must provide an Id of string type";
 
-        console.log(newTitle);
-        console.log(newContent);
+        if (!teamName) throw "Must provide a valid Team Name";
+        if (typeof teamName != 'string') throw "Must provide a Team Name of string type";
 
         const idObj = new ObjectId(id)
 
-        const postCollection = await posts();
-        const tempPost = await postCollection.findOne({ _id: idObj });
-        console.log(tempPost)
-        if (tempPost === null) throw "No animal with that Id";
+        const teamListCollection = await teamList();
+        const tempTeam = await teamListCollection.findOne({ _id: idObj });
+        console.log(tempTeam)
+        if (tempTeam === null) throw "No Team with that Id";
 
-        if(newContent!=undefined && newTitle != undefined){
-            const updatedData = await postCollection.updateOne({ _id: idObj }, {$set: {teamName:newTitle, content:newContent}});
+        const updatedData = await teamListCollection.updateOne({ _id: idObj }, {$set: {teamName:teamName}});
 
-            if (updatedData.modifiedCount === 0) {
-                throw "could not update animal successfully";
-            }
-            const modObj = await module.exports.read(id);
-            console.log(modObj)
-            return modObj;
+        if (updatedData.modifiedCount === 0) {
+            throw "could not update Team successfully";
         }
+        const modObj = await module.exports.read(id);
+        console.log(modObj)
 
-        if (newContent==undefined) //throw "Must provide a valid teamName";
-        {
-            const updatedData = await animalCollection.updateOne({ _id: idObj }, {$set: {content:newContent}});
-            
-            if (updatedData.modifiedCount === 0) {
-                console.log(updatedData.modifiedCount);
-                throw "could not update animal successfully";
-            }
-            return await module.exports.read(id);
+        rostersData.updateName(id, teamName); //updates teamName in Rosters as well
 
-        }
-        if (newTitle==undefined) //throw "Must provide a valid teamName";
-        {
-            const updatedData = await animalCollection.updateOne({ _id: idObj }, {$set: {content:newContent}});
-            
-            if (updatedData.modifiedCount === 0) {
-                throw "could not update animal successfully";
-            }
-            return await module.exports.read(id);
-        }
-        //if (typeof teamName != 'string') throw "Must provide a teamName of string type";
-
-        // if (!content) throw "Must provide valid content";
-        // if (typeof content != 'string') throw "Must provide content of string type";
-
-
+        return modObj;
     },
+    createPlayer: async(id, playerName) =>{
+        if (!id) throw "Must provide a valid Id";
+        if (typeof id != 'string') throw "Must provide an Id of string type";
+
+        if (!playerName) throw "Must provide a valid Player Name";
+        if (typeof playerName != 'string') throw "Must provide a Player Name of string type";
+
+        const teamListCollection = await teamList();
+        const teamIdObj = new ObjectId(id);
+        const playerIdObj = new ObjectId();
+
+        let newPlayer = {
+            playerId: playerIdObj,
+            playerName: playerName
+        };
+
+        // tempTeam.playerList.push(newPlayer);
+        const updatedData = await teamListCollection.updateOne({_id:teamIdObj}, {$push:{playerList: newPlayer}})
+
+        if (updatedData.modifiedCount === 0) {
+            throw "could not update Team successfully";
+        }
+
+        const modObj = await module.exports.read(id);
+        console.log(modObj);
+        return modObj;
+    },
+    deletePlayer: async(id, playerId) =>{
+        if (!id) throw "Must provide a valid Id";
+        if (typeof id != 'string') throw "Must provide an Id of string type";
+
+        if (!playerId) throw "Must provide a valid Player Id";
+        if (typeof playerId != 'string') throw "Must provide a Player Id of string type";
+
+        const tempTeam = await module.exports.read(id);
+        
+        const deletedObj = _.remove(tempTeam.playerList, function(player){return player.playerId == playerId});
+        if(!deleteObj) { throw "Player not found in this Roster"}
+
+        const modObj = await module.exports.read(id);
+        console.log(modObj);
+        return modObj;
+    },    
     delete: async(id) => { ////needs to be updated
         if (!id) throw "Must provide a valid Id";
         if (typeof id != 'string') throw "Must provide an Id of string type";
 
         const idObj = new ObjectId(id)
 
-        const postCollection = await posts();
-        const deletionInfo = await postCollection.removeOne({ _id: idObj });
+        const teamListCollection = await teamList();
+        const deletionInfo = await teamListCollection.removeOne({ _id: idObj });
         if (deletionInfo.deletedCount === 0) {
             throw `Could not delete post with id of ${id}`;
         }

@@ -1,0 +1,2813 @@
+[
+  {
+    "team": "All Saints-Small Fry 3rd grade",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Thomas Gray",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Kiran Khirova ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Jonathan Gels",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Michael Noto ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Connor Lalli",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Sujeev Kapur",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Rafay Khan ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Baron Dworzanski ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Leo Gigante ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Adiya Prasad",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Jack Preston ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Akul Menon ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Laura Scott ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Julia Everett",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Claire Conover ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Max Johnson ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Stella Halliburton ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      }
+    ]
+  },
+  {
+    "team": "All Saints-Small Fry 4th grade",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Alex Nutt",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Forest Yee",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Chase Cammarota",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Nyasia Wheeler",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Araceli English ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Grayson Gao",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Enzo Mazzanti",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Emory Nam ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Robert Caulfield ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Lochlan Guenther",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Shane Feinstein ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Ethan Friel ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Neel Rathore ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Ava Thorp",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Harry Anderson ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Delia Lohan ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Victoria Esguerra",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Luke Radtke",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Beta Vino ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Mike Seaton ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "LJ Katz",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Griffin Burk ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      }
+    ]
+  },
+  {
+    "team": "Hoboken Middle School Knicks",
+    "key": "HSKGR",
+    "league": "grammar",
+    "roster": [
+      {
+        "name": "Anthony Diaz",
+        "phone": "201-496-0879",
+        "dob": 1108080000000,
+        "email": null
+      },
+      {
+        "name": "Joel Lopez",
+        "phone": "551-689-6725",
+        "dob": 1082073600000,
+        "email": null
+      },
+      {
+        "name": "Julian Guerra ",
+        "phone": "201-780-5150",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Dorian Mooriman ",
+        "phone": "201-208-8870",
+        "dob": 1113868800000,
+        "email": null
+      },
+      {
+        "name": "Harleys Gonzales Mora ",
+        "phone": "508-598-2233",
+        "dob": 1106784000000,
+        "email": null
+      },
+      {
+        "name": "Jordan Spivey ",
+        "phone": "201-814-5182",
+        "dob": 1150848000000,
+        "email": null
+      },
+      {
+        "name": "Richard Wright ",
+        "phone": "201-702-0114",
+        "dob": 1121299200000,
+        "email": null
+      },
+      {
+        "name": "Damien Vizcarrondo ",
+        "phone": "201-610-0143",
+        "dob": 1132012800000,
+        "email": null
+      },
+      {
+        "name": "Bryson Lopez ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Ray Pegaro ",
+        "phone": "201-708-3510",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Jospeh DeLaRosa ",
+        "phone": "201-966-7504",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Angel Rivera",
+        "phone": null,
+        "dob": null,
+        "email": null
+      }
+    ]
+  },
+  {
+    "team": "Hoboken Middle School Warriors",
+    "key": "HSWGR",
+    "league": "grammar",
+    "roster": [
+      {
+        "name": "Angel Acosta ",
+        "phone": "551-267-0006",
+        "dob": 1145836800000,
+        "email": null
+      },
+      {
+        "name": "Damian Acosta ",
+        "phone": "551-267-0006",
+        "dob": 1145836800000,
+        "email": null
+      },
+      {
+        "name": "Sammy Garcia ",
+        "phone": "201-286-6028",
+        "dob": 1142553600000,
+        "email": null
+      },
+      {
+        "name": "Jasil Lane",
+        "phone": "201-705-9898",
+        "dob": 1112227200000,
+        "email": null
+      },
+      {
+        "name": "Ramon Perez ",
+        "phone": "201-471-1210 ",
+        "dob": 1119571200000,
+        "email": null
+      },
+      {
+        "name": "Manuel Reyes ",
+        "phone": "201-515-0787",
+        "dob": 1114560000000,
+        "email": null
+      },
+      {
+        "name": "Justin Villafane ",
+        "phone": "201-245-6794",
+        "dob": 1110758400000,
+        "email": null
+      },
+      {
+        "name": "Christopher Lopez ",
+        "phone": "201-428-4201",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Fernando Guevara ",
+        "phone": "201-238-8104",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Christian Colon ",
+        "phone": "201-737-5400",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Devin Sosa",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Ray Horton ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Brandon Rodriguez ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      }
+    ]
+  },
+  {
+    "team": "Hoboken Middle School Nets",
+    "key": "HSNGR",
+    "league": "grammar",
+    "roster": [
+      {
+        "name": "Ryan Balouma ",
+        "phone": "908-420-9200",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "DJ Campbell ",
+        "phone": "201-878-6310",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Ibrahim Chowdhury ",
+        "phone": "347-274-5746",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Joe Fiore ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Glenn Galapon ",
+        "phone": "201-320-4008",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Elias Genao ",
+        "phone": "201-927-7542",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Alexander Mauro ",
+        "phone": "201-397-2568",
+        "dob": 1123459200000,
+        "email": null
+      },
+      {
+        "name": "Gabriel Mestre",
+        "phone": "201-748-9553",
+        "dob": 1154995200000,
+        "email": null
+      },
+      {
+        "name": "Tahjmir Mitchell ",
+        "phone": "201-275-9128 ",
+        "dob": 1085875200000,
+        "email": null
+      },
+      {
+        "name": "Jiel Mixson ",
+        "phone": "201-838-6731",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Nile Rivera ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Vincenzo Torre",
+        "phone": "201-792-5102",
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Nick Petrocelli ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Santino Cortez Gil ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Benny Cecala ",
+        "phone": "201-989-9076",
+        "dob": 1134691200000,
+        "email": null
+      }
+    ]
+  },
+  {
+    "team": "Small Fry - PAL 4",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Baxter Hilton ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Dante Speranza",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Dominic Magaletta ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Max Goyal ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Laia Goyal ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Charlie Malizia Bowden ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Kai VanGarderen ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Ronan Finnegan ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Owen Stamplis ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Connor Heidel ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Owen Groff ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      }
+    ]
+  },
+  {
+    "team": "Mustard Seed",
+    "league": "grammar",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Zane Fritz ",
+        "phone": null,
+        "dob": null,
+        "email": "heykaren@optonline.net "
+      },
+      {
+        "name": "Sasha Tyazhelkova ",
+        "phone": null,
+        "dob": null,
+        "email": "mtyazhelkova@gmail.com "
+      },
+      {
+        "name": "Ali Veloce",
+        "phone": null,
+        "dob": null,
+        "email": "tanchialynn@hotmail.com "
+      },
+      {
+        "name": "Cooper Breene ",
+        "phone": null,
+        "dob": null,
+        "email": "alisas@optonline.net "
+      },
+      {
+        "name": "Michael Eliot",
+        "phone": null,
+        "dob": null,
+        "email": "adegorgey@yahoo.com "
+      },
+      {
+        "name": "Bella Rostan ",
+        "phone": null,
+        "dob": null,
+        "email": "srostan@lgrliterary.com "
+      },
+      {
+        "name": "Danny Markferding ",
+        "phone": null,
+        "dob": null,
+        "email": "dmarkferding@optonline.net "
+      },
+      {
+        "name": "Anthony Duarte ",
+        "phone": null,
+        "dob": null,
+        "email": "chelitasmall@aol.com "
+      },
+      {
+        "name": "Kate Austin ",
+        "phone": null,
+        "dob": null,
+        "email": "christinedumas_a@yahoo.com "
+      },
+      {
+        "name": "Caroline Ko ",
+        "phone": null,
+        "dob": null,
+        "email": "ko.peter.s@gmail.com "
+      },
+      {
+        "name": "Tessa Kapsch ",
+        "phone": null,
+        "dob": null,
+        "email": "ckapsch@gmail.com "
+      },
+      {
+        "name": "Veer Agarwal ",
+        "phone": null,
+        "dob": null,
+        "email": "sonal.a@gmail.com "
+      },
+      {
+        "name": "Dylan Anderson-Bosco ",
+        "phone": null,
+        "dob": null,
+        "email": "denise@designdma.com "
+      },
+      {
+        "name": "Annie McGraw ",
+        "phone": null,
+        "dob": null,
+        "email": "kpdmcgraw@gmail.com "
+      },
+      {
+        "name": "Theo Ritter ",
+        "phone": null,
+        "dob": null,
+        "email": "ritternathan@gmail.com "
+      },
+      {
+        "name": "Jackson Mulligan ",
+        "phone": null,
+        "dob": null,
+        "email": "dr.mulligan10@gmail.com "
+      },
+      {
+        "name": "Giulio Andressi ",
+        "phone": null,
+        "dob": null,
+        "email": "cbaffa@cgps.org "
+      },
+      {
+        "name": "Ian Orfolsky ",
+        "phone": null,
+        "dob": null,
+        "email": "danielle_demaria@yahoo.com "
+      },
+      {
+        "name": "Roma Lekovish ",
+        "phone": null,
+        "dob": null,
+        "email": "nancygalanty@gmail.com "
+      }
+    ]
+  },
+  {
+    "team":"Mustard Seed 6",
+    "league": "grammar",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Esther Coronel ",
+        "phone": null,
+        "dob": null,
+        "email": "jnc12@hotmaila.com "
+      },
+      {
+        "name": "Emma Coronel ",
+        "phone": null,
+        "dob": null,
+        "email": "jnc12@hotmaila.com "
+      },
+      {
+        "name": "Browyn Kickasola",
+        "phone": null,
+        "dob": null,
+        "email": "llkickasola@yahoo.com "
+      },
+      {
+        "name": "Kathleen McGraw",
+        "phone": null,
+        "dob": null,
+        "email": "kpdmcgraw@gmail.com "
+      },
+      {
+        "name": "Shannon Wright ",
+        "phone": null,
+        "dob": null,
+        "email": "mswright@crcinas.com "
+      },
+      {
+        "name": "Josh Liu ",
+        "phone": null,
+        "dob": null,
+        "email": "abigail.s.liu@gmail.com "
+      },
+      {
+        "name": "Jett Franqui ",
+        "phone": null,
+        "dob": null,
+        "email": "mfranqui330@hotmail.com "
+      },
+      {
+        "name": "Genesis Gasca ",
+        "phone": null,
+        "dob": null,
+        "email": "christopherigasca@gmail.com"
+      },
+      {
+        "name": "Logan Brown ",
+        "phone": null,
+        "dob": null,
+        "email": "jmgwbrown@aol.com"
+      },
+      {
+        "name": "Henry Parker ",
+        "phone": null,
+        "dob": null,
+        "email": "kwoodardparker@gmail.com "
+      },
+      {
+        "name": "Michael Fasciano ",
+        "phone": null,
+        "dob": null,
+        "email": "fasciano.mike@gmail.com "
+      },
+      {
+        "name": "Avery Tindale",
+        "phone": null,
+        "dob": null,
+        "email": "snickyv@yahoo.com "
+      },
+      {
+        "name": "Will Sytsma ",
+        "phone": null,
+        "dob": null,
+        "email": "emilyfsytsma@gmail.com "
+      },
+      {
+        "name": "Justus Schmidt ",
+        "phone": null,
+        "dob": null,
+        "email": "schmidt.jocelyn@gmail.com "
+      },
+      {
+        "name": "Anna Yaegashi ",
+        "phone": null,
+        "dob": null,
+        "email": "iyaegashi@gmail.com "
+      },
+      {
+        "name": "Danny Russo ",
+        "phone": null,
+        "dob": null,
+        "email": "vidalrusso@gmail.com "
+      },
+      {
+        "name": "Maya Perez ",
+        "phone": null,
+        "dob": null,
+        "email": "raulgperezjr@gmail.com "
+      }
+    ]
+  },
+  {
+    "team": "Hudson 6",
+    "key": "HU6MI",
+    "league": "middle",
+    "roster": [
+      {
+        "name": "Aidan Lamb",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Jeremy Warren ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Nathaniel Warren ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Nikhil Emmatty ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Eva Kondili",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Arjun Puri ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Pape Alioune Toure",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Madelie French ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Edward Perez ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Stav Amir ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Dinu Antonescu ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      }
+    ]
+  },
+  {
+    "team": "Hudson",
+    "key": "HUDGR",
+    "league": "grammar",
+    "roster": [
+      {
+        "name": "Rapha Momar Dieng ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Vanya Merkov ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Marius Kaljuvee",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Ryan Rizvi ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Emiliano Leal ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Alec Lucken ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Kanaan Guilford ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Simon Abrams ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Luke Schreiber",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Sabir Lesure ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Gary Gao",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Jayden Smith ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "James Cornell ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Boucar Mbaye ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Alp Ayata ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Ryan Duke ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Eashan Amin ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      }
+    ]
+  },
+  {
+    "team":"Elysian Charter School - Small Fry 3rd Grade Green",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Alderson, Sebastian ",
+        "phone": "201-927-1137",
+        "dob": null,
+        "email": "alexwilliams@hotmail.com "
+      },
+      {
+        "name": "Blake, Milo ",
+        "phone": "201-230-2513 ",
+        "dob": null,
+        "email": "bblake@greenkeylk.com"
+      },
+      {
+        "name": "Elshafey, Athena ",
+        "phone": "201-561-6131",
+        "dob": null,
+        "email": "elshafeyeman@gmail.com "
+      },
+      {
+        "name": "Endico, Jack ",
+        "phone": "201-610-0101",
+        "dob": null,
+        "email": "jendico@yahoo.com"
+      },
+      {
+        "name": "Gazaleh, Greta",
+        "phone": "732-841-7439",
+        "dob": null,
+        "email": "michael@cityrunningtours.com "
+      },
+      {
+        "name": "Glynn, Reese",
+        "phone": "646-489-5187",
+        "dob": null,
+        "email": "dgylnn02@gmail.com "
+      },
+      {
+        "name": "Magazinnik, Ilya",
+        "phone": "917-586-9270",
+        "dob": null,
+        "email": "mkotlin@aol.com"
+      },
+      {
+        "name": "O'Callaghan, Brendan ",
+        "phone": "201-618-6834",
+        "dob": null,
+        "email": "patrick.ocallaghan@gs.com"
+      },
+      {
+        "name": "O'Connor, Carolyn ",
+        "phone": "631-807-4782",
+        "dob": null,
+        "email": "andrea.m.oconnor1@gmail.com "
+      },
+      {
+        "name": "Sow, Ismael ",
+        "phone": "917-696-1584",
+        "dob": null,
+        "email": "rebecca_goodmanstephens@hotmail.com"
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter School - Small Fry 3rd Grade White",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Auld, Jack R. ",
+        "phone": "917-570-4546",
+        "dob": null,
+        "email": "bobbyauld7@yahoo.com "
+      },
+      {
+        "name": "Bachar, Ofek ",
+        "phone": "646-318-1692",
+        "dob": null,
+        "email": "eran.bachar@gmail.com"
+      },
+      {
+        "name": "Granit, Samuel ",
+        "phone": "201-683-8034",
+        "dob": null,
+        "email": "granit@gmail.com "
+      },
+      {
+        "name": "Lombera-Bejar, Emilio",
+        "phone": "201-216-5758",
+        "dob": null,
+        "email": "cbejar19@yahoo.com "
+      },
+      {
+        "name": "Mogollon, Ines ",
+        "phone": "512-981-9041",
+        "dob": null,
+        "email": "ana.maria.benavented@gmail.com "
+      },
+      {
+        "name": "Murray, Thomas",
+        "phone": "201-580-6018",
+        "dob": null,
+        "email": "ava.johnson17@yahoo.com"
+      },
+      {
+        "name": "Napolitani, Wren ",
+        "phone": "201-683-3652",
+        "dob": null,
+        "email": "jacurtin86@yahoo.com"
+      },
+      {
+        "name": "O'Callaghan, James ",
+        "phone": "201-618-6834",
+        "dob": null,
+        "email": "6patoc@gmail.com"
+      },
+      {
+        "name": "Simon, Grayson ",
+        "phone": "917-921-0743",
+        "dob": null,
+        "email": "bradrsimon@yahoo.com"
+      },
+      {
+        "name": "Stanin, Gabriella ",
+        "phone": "201-741-4721",
+        "dob": null,
+        "email": "ajstanin@gmail.com"
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter School - Small Fry 4th Grade White",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Campbell, Charles ",
+        "phone": "917-406-8517",
+        "dob": null,
+        "email": "carriecampbell76@yahoo.com"
+      },
+      {
+        "name": "Conry, Helaina ",
+        "phone": "443-691-4520",
+        "dob": null,
+        "email": "kistijo72@yahoo.com"
+      },
+      {
+        "name": "Flood, Quinn",
+        "phone": "917-488-6200",
+        "dob": null,
+        "email": "timothyflood@gmail.com"
+      },
+      {
+        "name": "Gale, Hunter ",
+        "phone": "310-404-9071",
+        "dob": null,
+        "email": "ticketljg33@yahoo.com "
+      },
+      {
+        "name": "Gonzalez, Lucia ",
+        "phone": "201-683-7455",
+        "dob": null,
+        "email": "fvgonzalez@yahoo.com"
+      },
+      {
+        "name": "Linder, Noa ",
+        "phone": "917-284-2855",
+        "dob": null,
+        "email": "craiglinder@gmail.com"
+      },
+      {
+        "name": "Thomas, Aurelia ",
+        "phone": "801-971-7341",
+        "dob": null,
+        "email": "jillanawatson@yahoo.com "
+      },
+      {
+        "name": "Vassallo, Gabrielle ",
+        "phone": "516-314-4439",
+        "dob": null,
+        "email": "danvassallo@gmail.com "
+      },
+      {
+        "name": "Wholf, Kyle ",
+        "phone": "201-217-6867",
+        "dob": null,
+        "email": "mwholf@yahoo.com "
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter School - Small Fry 4th Grade Green",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Casazza, Michael ",
+        "phone": "201-294-8360",
+        "dob": null,
+        "email": "mcasazza121@gmail.com"
+      },
+      {
+        "name": "Hamou, Lea",
+        "phone": "646-522-7687",
+        "dob": null,
+        "email": "hamou_david@yahoo.com"
+      },
+      {
+        "name": "Inbar, Uri ",
+        "phone": "201-300-4765",
+        "dob": null,
+        "email": "guy.inbar@gmail.com"
+      },
+      {
+        "name": "Jones, Rayquan ",
+        "phone": "201-877-8300",
+        "dob": null,
+        "email": "debbiejones07030@yahoo.com"
+      },
+      {
+        "name": "McCue, Mia ",
+        "phone": "201-658-7330",
+        "dob": null,
+        "email": "michaelgmccue@gmail.com"
+      },
+      {
+        "name": "McDermott, Keira ",
+        "phone": "201-238-2145",
+        "dob": null,
+        "email": "brimcdermott@hotmail.co.uk"
+      },
+      {
+        "name": "Spiegel, Evan ",
+        "phone": "201-417-5248",
+        "dob": null,
+        "email": "spiegel.danny@gmail.com"
+      },
+      {
+        "name": "Strell, Sylvie",
+        "phone": "201-401-1936",
+        "dob": null,
+        "email": "pamelastrell@gmail.com"
+      },
+      {
+        "name": "Verpeut, Jaden ",
+        "phone": "201-725-1073",
+        "dob": null,
+        "email": "jen_la73@yahoo.com"
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter White 5",
+    "key": "EW5MI",
+    "league": "middle",
+    "roster": [
+      {
+        "name": "Choudhury, Sophia ",
+        "phone": "646-732-9833",
+        "dob": null,
+        "email": "lee_milly@hotmail.com"
+      },
+      {
+        "name": "Craft, Henry",
+        "phone": "347-219-9208",
+        "dob": null,
+        "email": "craftsteph@gmail.com "
+      },
+      {
+        "name": "Filipps, Addison ",
+        "phone": "201-315-1177",
+        "dob": null,
+        "email": "toddfilipps@gmail.com "
+      },
+      {
+        "name": "Filipps, Jackson ",
+        "phone": "201-315-1177",
+        "dob": null,
+        "email": "toddfilipps@gmail.com "
+      },
+      {
+        "name": "Goodman, Adam",
+        "phone": "571-215-2115",
+        "dob": null,
+        "email": "sethrg@gmail.com "
+      },
+      {
+        "name": "Jennings, Jack",
+        "phone": "917-304-5991",
+        "dob": null,
+        "email": "pjjohoto@gmail.com "
+      },
+      {
+        "name": "Lasaga, Charlotte",
+        "phone": "201-264-4388",
+        "dob": null,
+        "email": "awhelton@optonline.net"
+      },
+      {
+        "name": "Lombera-Bejar, Juan Pablo ",
+        "phone": "646-284-6721",
+        "dob": null,
+        "email": "jlombera@hotmail.com "
+      },
+      {
+        "name": "Pacheco-Berger, Jesse ",
+        "phone": "718-908-3533",
+        "dob": null,
+        "email": "cathylberger@yahoo.com"
+      },
+      {
+        "name": "Phalen, Megan Marie",
+        "phone": "347-661-4897",
+        "dob": null,
+        "email": "brendanphalen@gmail.com"
+      },
+      {
+        "name": "Touzalin, Brady",
+        "phone": "917-685-4439",
+        "dob": null,
+        "email": "barbaravelez123@gmail.com "
+      },
+      {
+        "name": "Vassallo, Benjamin ",
+        "phone": "516-314-4439",
+        "dob": null,
+        "email": "danvassallo@gmail.com "
+      },
+      {
+        "name": "Villatoro, Kenneth ",
+        "phone": "551-998-5859",
+        "dob": null,
+        "email": "donato211@hotmail.com "
+      },
+      {
+        "name": "Zoltak, Alexis ",
+        "phone": "201-705-9396",
+        "dob": null,
+        "email": "svetlana.zoltak@gmail.com"
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter Green 5",
+    "key": "EG5MI",
+    "league": "middle",
+    "roster": [
+      {
+        "name": "Coppelli, Andres ",
+        "phone": "201-876-0101",
+        "dob": null,
+        "email": "abritamay@gmail.com "
+      },
+      {
+        "name": "DeFlippis, Olivia ",
+        "phone": "201-926-6916",
+        "dob": null,
+        "email": "tcredavid@yahoo.com"
+      },
+      {
+        "name": "DeFlippis, Stella",
+        "phone": "201-926-6916",
+        "dob": null,
+        "email": "tcredavid@yahoo.com"
+      },
+      {
+        "name": "Jeffers, Kokone",
+        "phone": "201-798-3821",
+        "dob": null,
+        "email": "jeffersjw@gmail.com"
+      },
+      {
+        "name": "Laden, Jeremy ",
+        "phone": "212-268-5730",
+        "dob": null,
+        "email": "noam.laden@gmail.com"
+      },
+      {
+        "name": "Lore, Mason ",
+        "phone": "201-647-3630",
+        "dob": null,
+        "email": "ashley.depascale@gmail.com"
+      },
+      {
+        "name": "Nakayama, Julia",
+        "phone": "212-282-3545",
+        "dob": null,
+        "email": "mac_nak@yahoo.com"
+      },
+      {
+        "name": "Napolitani, Grant ",
+        "phone": "732-996-8811",
+        "dob": null,
+        "email": "steve.napolitani@gmail.com"
+      },
+      {
+        "name": "Passarelli, Lea",
+        "phone": "917-841-8578",
+        "dob": null,
+        "email": "jillschatz@yahoo.com"
+      },
+      {
+        "name": "Prince, Gabriel ",
+        "phone": "917-334-3433",
+        "dob": null,
+        "email": "princeopton@hotmail.com "
+      },
+      {
+        "name": "Prince, Tyler",
+        "phone": "917-334-3433",
+        "dob": null,
+        "email": "princeopton@hotmail.com "
+      },
+      {
+        "name": "Schreiber, Luke ",
+        "phone": "201-600-6497",
+        "dob": null,
+        "email": "annemarieplus3@gmail.com"
+      },
+      {
+        "name": "Vasudevan, Anya ",
+        "phone": "201-289-6408",
+        "dob": null,
+        "email": "katrinasrv@hotmail.com "
+      },
+      {
+        "name": "Volpert, Elizabeth ",
+        "phone": "646-932-4763",
+        "dob": null,
+        "email": "mashapyshkina@gmail.com "
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter Green 6",
+    "key": "EG6MI",
+    "league": "middle",
+    "roster": [
+      {
+        "name": "Alderson, Madeline",
+        "phone": "201-779-6545",
+        "dob": null,
+        "email": "galderson2002@gmail.com "
+      },
+      {
+        "name": "Blake, Luca",
+        "phone": "201-230-2513",
+        "dob": null,
+        "email": "jpirozziblake@gmail.com "
+      },
+      {
+        "name": "Casazza, Maximus",
+        "phone": "201-294-8360",
+        "dob": null,
+        "email": "mcasazza121@gmail.com "
+      },
+      {
+        "name": "DeFilippis, Anthony ",
+        "phone": "201-417-2929",
+        "dob": null,
+        "email": "chris.defilippis@gmail.com "
+      },
+      {
+        "name": "Guerra, Jaida",
+        "phone": "201-780-5150",
+        "dob": null,
+        "email": "burgos.isadora7@gmail.com "
+      },
+      {
+        "name": "Laskowski, Cole",
+        "phone": "201-222-0293",
+        "dob": null,
+        "email": "marybetha@childapp.com "
+      },
+      {
+        "name": "Mauseth, Victor",
+        "phone": "201-787-8953",
+        "dob": null,
+        "email": "tedmauseth@gmail.com "
+      },
+      {
+        "name": "Nakayama, Leo ",
+        "phone": "646-610-0194",
+        "dob": null,
+        "email": "ecchamaat@gmail.com "
+      },
+      {
+        "name": "Nemeth-Szerdai",
+        "phone": "201-533-9022",
+        "dob": null,
+        "email": "zsolt1@optonline.net"
+      },
+      {
+        "name": "Tuckman, Jack ",
+        "phone": "917-676-3895",
+        "dob": null,
+        "email": "dmuradian@gmail.com "
+      },
+      {
+        "name": "Vogel, Jake ",
+        "phone": "201-779-2127",
+        "dob": null,
+        "email": "brittanylvogel@yahoo.com"
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter Green",
+    "league": "grammar",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Gonzalez,  Mateo V. ",
+        "phone": "917-647-7264",
+        "dob": null,
+        "email": "fvielot@hotmail.com "
+      },
+      {
+        "name": "Jeffers, Taiki V.",
+        "phone": "201-798-3821",
+        "dob": null,
+        "email": "masamimi@gmail.com "
+      },
+      {
+        "name": "Kaplun-Muller, Benjamin ",
+        "phone": "917-771-4229",
+        "dob": null,
+        "email": "ines_muller@hotmail.com "
+      },
+      {
+        "name": "Lore, Jackson ",
+        "phone": "201-726-0112",
+        "dob": null,
+        "email": "jerrylore@gmail.com "
+      },
+      {
+        "name": "Murray, Cian ",
+        "phone": "917-969-3836",
+        "dob": null,
+        "email": "nmurray.70@gmail.com "
+      },
+      {
+        "name": "Rodriguez, Riley ",
+        "phone": "646-388-0866",
+        "dob": null,
+        "email": "mlee@kelleydrye.com"
+      },
+      {
+        "name": "Rutledge, Gavin ",
+        "phone": "201-239-4445",
+        "dob": null,
+        "email": "sgrutledge@me.com"
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter White",
+    "key": "ECWGR",
+    "league": "grammar",
+    "roster": [
+      {
+        "name": "Badali, Adrian ",
+        "phone": "201-705-8945 ",
+        "dob": null,
+        "email": "badali@icloud.com "
+      },
+      {
+        "name": "Bruk, Peter ",
+        "phone": "917-613-6427",
+        "dob": null,
+        "email": "admybruk@gmail.com "
+      },
+      {
+        "name": "Dehghani, Devon ",
+        "phone": "650-224-3473",
+        "dob": null,
+        "email": "msaffari2@yahoo.com "
+      },
+      {
+        "name": "Giattino, Alexander",
+        "phone": "201-780-6779",
+        "dob": null,
+        "email": "peep1016@gmail.com "
+      },
+      {
+        "name": "O'Brien, Conlin ",
+        "phone": "201-401-2347",
+        "dob": null,
+        "email": "scotchies@aol.com "
+      },
+      {
+        "name": "O'Callaghan, Sean ",
+        "phone": "201-618-6835",
+        "dob": null,
+        "email": "joc426@gmail.com"
+      },
+      {
+        "name": "Orlando, Sergio ",
+        "phone": "917-626-7413",
+        "dob": null,
+        "email": "claudia@orlandop.com"
+      },
+      {
+        "name": "Rodriguez, Maximus ",
+        "phone": "609-635-5621",
+        "dob": null,
+        "email": "migmontero08@aol.com"
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter Kelly Green",
+    "league": "grammar",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Aviles, Levi ",
+        "phone": "201-936-6373",
+        "dob": null,
+        "email": "maritzalopezl@yahoo.com"
+      },
+      {
+        "name": "Ballantyne, Christian ",
+        "phone": "917-992-9354",
+        "dob": null,
+        "email": "psballantyne@gmail.com "
+      },
+      {
+        "name": "D'Antonio, Michael ",
+        "phone": "201-966-8648",
+        "dob": null,
+        "email": "susandantonio68@gmail.com "
+      },
+      {
+        "name": "Fischer, Mason ",
+        "phone": "201-978-7582",
+        "dob": null,
+        "email": "jfischer@urschel.com"
+      },
+      {
+        "name": "Fischer, Zack",
+        "phone": "201-653-0198",
+        "dob": null,
+        "email": "amziegler@yahoo.com"
+      },
+      {
+        "name": "Harag, Oliver ",
+        "phone": "917-842-6749",
+        "dob": null,
+        "email": "evaharag@gmail.com"
+      },
+      {
+        "name": "Jones, Dasquan ",
+        "phone": "201-877-8300",
+        "dob": null,
+        "email": "debbiejones07030@yahoo.com"
+      },
+      {
+        "name": "Salinas Jonathan ",
+        "phone": "201-844-7097",
+        "dob": null,
+        "email": "patti.torre02@gmail.com"
+      },
+      {
+        "name": "Sanchez, Lucas",
+        "phone": "201-321-5296",
+        "dob": null,
+        "email": "jacqui.sanchez73@gmail.com"
+      },
+      {
+        "name": "Touzalin, Carter",
+        "phone": "917-685-4439",
+        "dob": null,
+        "email": "barbaravelez123@gmail.com "
+      },
+      {
+        "name": "Weinstein, Evan ",
+        "phone": "201-222-8404",
+        "dob": null,
+        "email": "aliciaweinstein07030@gmail.com "
+      }
+    ]
+  },
+  {
+    "team": "Elysian Charter",
+    "key": "ECGI",
+    "league": "girls",
+    "roster": [
+      {
+        "name": "Best, Leyla ",
+        "phone": "718-288-8857",
+        "dob": null,
+        "email": "davidbestnyc@gmail.com"
+      },
+      {
+        "name": "Craft, Nella",
+        "phone": "917-709-3371",
+        "dob": null,
+        "email": "carter@outsidenewyork.net"
+      },
+      {
+        "name": "Golubchik, Sasha ",
+        "phone": "646-239-5777",
+        "dob": null,
+        "email": "stanley.golubchik@gmail.com"
+      },
+      {
+        "name": "Hysen, Juliet ",
+        "phone": "201-653-2757",
+        "dob": null,
+        "email": "lisachernick@optonline.net"
+      },
+      {
+        "name": "Kanlic, Lana",
+        "phone": "201-920-0971",
+        "dob": null,
+        "email": "zocykan@gmail.com"
+      },
+      {
+        "name": "McCue, Siena",
+        "phone": "201-533-9796",
+        "dob": null,
+        "email": "michelegmccue@gmail.com"
+      },
+      {
+        "name": "Michaels, Frances ",
+        "phone": "201-602-4601",
+        "dob": null,
+        "email": "michaelsregan@gmail.com"
+      },
+      {
+        "name": "Michaels, Giselle",
+        "phone": "201-602-4601",
+        "dob": null,
+        "email": "michaelsregan@gmail.com"
+      },
+      {
+        "name": "Murray, Mariah",
+        "phone": "201-580-6018",
+        "dob": null,
+        "email": "ava.johnson17@yahoo.com"
+      },
+      {
+        "name": "O'Brien, Aimee",
+        "phone": "201-401-2347",
+        "dob": null,
+        "email": "scotchies@aol.com"
+      }
+    ]
+  },
+  {
+    "team": "HCS -3rd Grade Small Fry",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Alex Lefkowitz ",
+        "phone": null,
+        "dob": null,
+        "email": "rdf121@yahoo.com"
+      },
+      {
+        "name": "Chavez, Avery ",
+        "phone": null,
+        "dob": null,
+        "email": "katepappas0927@gmail.com "
+      },
+      {
+        "name": "Eric Guglberger",
+        "phone": null,
+        "dob": null,
+        "email": "clausgu@gmail.com"
+      },
+      {
+        "name": "Issac Grant ",
+        "phone": null,
+        "dob": null,
+        "email": "agrant5@verizon.net "
+      },
+      {
+        "name": "LoBue Alexander",
+        "phone": null,
+        "dob": null,
+        "email": "flobue@me.com"
+      },
+      {
+        "name": "Loria, Francesca",
+        "phone": null,
+        "dob": null,
+        "email": "caitlnreed@aol.com"
+      },
+      {
+        "name": "Guiney, Shane ",
+        "phone": null,
+        "dob": null,
+        "email": "mguiney34@gmail.com "
+      },
+      {
+        "name": "Snow, Ellie ",
+        "phone": null,
+        "dob": null,
+        "email": "michaelsnow165@gmail.com "
+      },
+      {
+        "name": "Jake, Kelly",
+        "phone": null,
+        "dob": null,
+        "email": "karenjkelly@gmail.com"
+      },
+      {
+        "name": "James Albino ",
+        "phone": null,
+        "dob": null,
+        "email": "shannonjohnson528@gmail.com "
+      },
+      {
+        "name": "Jason Higbee",
+        "phone": null,
+        "dob": null,
+        "email": "shigbee517@gmail.com"
+      },
+      {
+        "name": "Jackson Rudden Onono ",
+        "phone": null,
+        "dob": null,
+        "email": "babesofjo@yahoo.com"
+      },
+      {
+        "name": "Julia Mylan ",
+        "phone": null,
+        "dob": null,
+        "email": "jane_mylan@discovery.com"
+      },
+      {
+        "name": "Teagan O'Connell ",
+        "phone": null,
+        "dob": null,
+        "email": "julianne.oconnell@yahoo.com"
+      }
+    ]
+  },
+  {
+    "team": "HCS - 4th grade - Small Fry",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Charlie O'Connell",
+        "phone": null,
+        "dob": null,
+        "email": "julianne.oconnell@yahoo.com"
+      },
+      {
+        "name": "Christina Johansen ",
+        "phone": null,
+        "dob": null,
+        "email": "karlam.johansen@gmail.com"
+      },
+      {
+        "name": "Hayden Faricelli ",
+        "phone": null,
+        "dob": null,
+        "email": "dgfaricelli@gmail.com "
+      },
+      {
+        "name": "Liam Malinsky ",
+        "phone": null,
+        "dob": null,
+        "email": "rebecca.malinsky@yahoo.com"
+      },
+      {
+        "name": "Mark Pitino ",
+        "phone": null,
+        "dob": null,
+        "email": "prinsessanja@yahoo.com "
+      },
+      {
+        "name": "Mia Noy ",
+        "phone": null,
+        "dob": null,
+        "email": "sivan.grossman@gmail.com "
+      },
+      {
+        "name": "Noah Altberger ",
+        "phone": null,
+        "dob": null,
+        "email": "caltberger@gmail.com "
+      },
+      {
+        "name": "Sophie Pitino ",
+        "phone": null,
+        "dob": null,
+        "email": "prinsessanja@yahoo.com "
+      }
+    ]
+  },
+  {
+    "team": "Hoboken Charter 5",
+    "key": "HC5MI",
+    "league": "middle",
+    "roster": [
+      {
+        "name": "Andrew Kelly ",
+        "phone": null,
+        "dob": null,
+        "email": "karenjkelly@gmail.com"
+      },
+      {
+        "name": "Benjamin Smelyansky ",
+        "phone": null,
+        "dob": null,
+        "email": "elizam@gmail.com"
+      },
+      {
+        "name": "Carlos Dominguez ",
+        "phone": null,
+        "dob": null,
+        "email": "dominguez.carlos.a@gmail.com "
+      },
+      {
+        "name": "Evan Hofsess",
+        "phone": null,
+        "dob": null,
+        "email": "joanne_hofsess@hotmail.com"
+      },
+      {
+        "name": "Filip Loncar ",
+        "phone": null,
+        "dob": null,
+        "email": "ivan.loncar@cwt.com"
+      },
+      {
+        "name": "Kane Sheridan ",
+        "phone": null,
+        "dob": null,
+        "email": "mphill80@gmail.com"
+      },
+      {
+        "name": "Leo Barsky ",
+        "phone": null,
+        "dob": null,
+        "email": "nlevinzon@yahoo.com "
+      },
+      {
+        "name": "Luna Cascetta",
+        "phone": null,
+        "dob": null,
+        "email": "lindsey.bednar@gmail.com "
+      },
+      {
+        "name": "Mai Yifrakh ",
+        "phone": null,
+        "dob": null,
+        "email": "saritsotto@gmail.com "
+      },
+      {
+        "name": "Noah Gilberg Virgona ",
+        "phone": null,
+        "dob": null,
+        "email": "majagilberg@gmail.com"
+      },
+      {
+        "name": "Gina Pasquariello ",
+        "phone": null,
+        "dob": null,
+        "email": "mpasq820@gmail.com "
+      },
+      {
+        "name": "Spencer Neissen ",
+        "phone": null,
+        "dob": null,
+        "email": "sneissen@aol.com "
+      }
+    ]
+  },
+  {
+    "team": "Hoboken Charter 6",
+    "key": "HC6MI",
+    "league": "middle",
+    "roster": [
+      {
+        "name": "Finn Getz",
+        "phone": null,
+        "dob": null,
+        "email": "sgetz@legal-aid.org"
+      },
+      {
+        "name": "Sean Leith ",
+        "phone": null,
+        "dob": null,
+        "email": "robinhk1@icloud.com "
+      },
+      {
+        "name": "Guiney, Molly",
+        "phone": null,
+        "dob": null,
+        "email": "mguiney34@gmail.com "
+      },
+      {
+        "name": "Narina Girotra ",
+        "phone": null,
+        "dob": null,
+        "email": "girotram@gmail.com "
+      },
+      {
+        "name": "McLaughlin, Jessica ",
+        "phone": null,
+        "dob": null,
+        "email": "tara@cyberexpedient.com"
+      },
+      {
+        "name": "James Harrison ",
+        "phone": null,
+        "dob": null,
+        "email": "dlharrison37@gmail.com"
+      },
+      {
+        "name": "Daniella Usherovich ",
+        "phone": null,
+        "dob": null,
+        "email": "lisahanuka@gmail.com "
+      },
+      {
+        "name": "Jordan Getz",
+        "phone": null,
+        "dob": null,
+        "email": "sgetz@legal-aid.org"
+      },
+      {
+        "name": "Joseph Krausch ",
+        "phone": null,
+        "dob": null,
+        "email": "hobokenmommy2@yahoo.com "
+      }
+    ]
+  },
+  {
+    "team": "Hoboken Charter - 7th Grade",
+    "league": "grammar",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Bram Hofsess",
+        "phone": null,
+        "dob": null,
+        "email": "joanne_hofsess@hotmail.com"
+      },
+      {
+        "name": "Brandon Vicioso",
+        "phone": null,
+        "dob": null,
+        "email": "ebony.dejesus@yahoo.com"
+      },
+      {
+        "name": "Emmett Greer",
+        "phone": null,
+        "dob": null,
+        "email": "christinesheedy@yahoo.com"
+      },
+      {
+        "name": "Sammy Tornabene ",
+        "phone": null,
+        "dob": null,
+        "email": "dtornabene@gmail.com"
+      },
+      {
+        "name": "Ivan Rothkegel ",
+        "phone": null,
+        "dob": null,
+        "email": "ivan.rothkegel@gmail.com"
+      },
+      {
+        "name": "Miles Hymes ",
+        "phone": null,
+        "dob": null,
+        "email": "fatouhymes@gmail.com"
+      },
+      {
+        "name": "Tyler Cahn ",
+        "phone": null,
+        "dob": null,
+        "email": "dcahn@cahncomm.com"
+      },
+      {
+        "name": "Jayden Hernandez ",
+        "phone": null,
+        "dob": null,
+        "email": "mariaesp_2000@yahoo.com"
+      },
+      {
+        "name": "Rafael Rothkegel ",
+        "phone": null,
+        "dob": null,
+        "email": "ivan.rothkegel@gmail.com"
+      }
+    ]
+  },
+  {
+    "team": "Hoboken Charter - 8th Grade",
+    "league": "grammar",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Ethan Modica ",
+        "phone": null,
+        "dob": null,
+        "email": "alissamodica@yahoo.com"
+      },
+      {
+        "name": "Jacob Guglberger ",
+        "phone": null,
+        "dob": null,
+        "email": "clausgu@gmail.com"
+      },
+      {
+        "name": "Sam Altberger ",
+        "phone": null,
+        "dob": null,
+        "email": "catlberger@gmail.com"
+      },
+      {
+        "name": "Alex White ",
+        "phone": null,
+        "dob": null,
+        "email": "dbatavia@optonline.net"
+      },
+      {
+        "name": "Ashleigh Phillips ",
+        "phone": null,
+        "dob": null,
+        "email": "csphillips08@gmail.com"
+      },
+      {
+        "name": "Hannah Berman ",
+        "phone": null,
+        "dob": null,
+        "email": "tinaberman1@gmail.com"
+      },
+      {
+        "name": "Sydney White ",
+        "phone": null,
+        "dob": null,
+        "email": "dbatavia@optonline.net"
+      }
+    ]
+  },
+  {
+    "team": "HOLA - 3rd Grade - Small Fry",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Schultz, Riley ",
+        "phone": null,
+        "dob": null,
+        "email": "alison.schultz@rbccm.com "
+      },
+      {
+        "name": "Coen, Drew",
+        "phone": null,
+        "dob": null,
+        "email": "lexicoen@hotmail.com "
+      },
+      {
+        "name": "Picciotto, Ethan ",
+        "phone": null,
+        "dob": null,
+        "email": "jenrubin1@gmail.com"
+      },
+      {
+        "name": "Heidenry, James ",
+        "phone": null,
+        "dob": null,
+        "email": "lori@heidenry.com "
+      },
+      {
+        "name": "Matos, Sebastian ",
+        "phone": null,
+        "dob": null,
+        "email": "rosemarie@nrmatos.com "
+      },
+      {
+        "name": "Patel, Krish ",
+        "phone": null,
+        "dob": null,
+        "email": "ishi1277@yahoo.com "
+      },
+      {
+        "name": "Whipple, Jude ",
+        "phone": null,
+        "dob": null,
+        "email": "jcwhip@gmail.com "
+      },
+      {
+        "name": "Schneider, Adrian ",
+        "phone": null,
+        "dob": null,
+        "email": "eva.ads@gmx.de"
+      },
+      {
+        "name": "Schneider, Alia ",
+        "phone": null,
+        "dob": null,
+        "email": "eva.ads@gmx.de"
+      },
+      {
+        "name": "Schneider, Anna",
+        "phone": null,
+        "dob": null,
+        "email": "eva.ads@gmx.de"
+      },
+      {
+        "name": "Waldron, Sean ",
+        "phone": null,
+        "dob": null,
+        "email": "slund2@juno.com "
+      },
+      {
+        "name": "Train, Otys ",
+        "phone": null,
+        "dob": null,
+        "email": "brientrain@gmail.com "
+      },
+      {
+        "name": "Chillemi, Luca",
+        "phone": null,
+        "dob": null,
+        "email": "antonellaspina11@gmail.com "
+      },
+      {
+        "name": "Gurtman, Tyler ",
+        "phone": null,
+        "dob": null,
+        "email": "kidscommunicate@yahoo.com "
+      },
+      {
+        "name": "Gurtman, Brayden ",
+        "phone": null,
+        "dob": null,
+        "email": "kidscommunicate@yahoo.com "
+      },
+      {
+        "name": "Novosyolok, Zachary ",
+        "phone": null,
+        "dob": null,
+        "email": "anovosyolok@gmail.com "
+      },
+      {
+        "name": "Fuller, Hudson ",
+        "phone": null,
+        "dob": null,
+        "email": "shari.fuller@carolehochman.com "
+      },
+      {
+        "name": "Rajapakse, Senal ",
+        "phone": null,
+        "dob": null,
+        "email": "samadhini@gmail.com "
+      },
+      {
+        "name": "Sanchez, Michelle ",
+        "phone": null,
+        "dob": null,
+        "email": "melanioabanto@yahoo.com "
+      },
+      {
+        "name": "Galindez Vasquez, Sarah Georgina ",
+        "phone": null,
+        "dob": null,
+        "email": "donnavaz12@yahoo.com "
+      },
+      {
+        "name": "Brauner, Gabriella",
+        "phone": null,
+        "dob": null,
+        "email": "bmayerowitz@gmail.com "
+      }
+    ]
+  },
+  {
+    "team": "HOLA - 4th Grade - Small Fry",
+    "league": "smallFry",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Greenberg, Zachary",
+        "phone": null,
+        "dob": null,
+        "email": "kate.greenberg@yahoo.com "
+      },
+      {
+        "name": "Kirk, Shane ",
+        "phone": null,
+        "dob": null,
+        "email": "brigitteakirk@msn.com "
+      },
+      {
+        "name": "Dunbabin, Jack ",
+        "phone": null,
+        "dob": null,
+        "email": "elisecoiteux@hotmail.com "
+      },
+      {
+        "name": "Sullivan, Cooper",
+        "phone": null,
+        "dob": null,
+        "email": "erikasullivan@gmail.com "
+      },
+      {
+        "name": "Giddens, Hudson ",
+        "phone": null,
+        "dob": null,
+        "email": "hello@tudiboo.com "
+      },
+      {
+        "name": "Figueroa, Noah ",
+        "phone": null,
+        "dob": null,
+        "email": "neftalifigueroa05@gmail.com "
+      },
+      {
+        "name": "Isenberg, Ethan",
+        "phone": null,
+        "dob": null,
+        "email": "luzgallarday@yahoo.es "
+      },
+      {
+        "name": "Fernadez, Xavier Issac ",
+        "phone": null,
+        "dob": null,
+        "email": "josefernandez8099@gmail.com "
+      },
+      {
+        "name": "Newman, Jack ",
+        "phone": null,
+        "dob": null,
+        "email": "bnmkey@gmail.com "
+      },
+      {
+        "name": "Camino, Andres ",
+        "phone": null,
+        "dob": null,
+        "email": "acamino@softek.com "
+      },
+      {
+        "name": "O'Brien, Jake ",
+        "phone": null,
+        "dob": null,
+        "email": "chrissydw13@gmail.com "
+      },
+      {
+        "name": "Sater, Alison ",
+        "phone": null,
+        "dob": null,
+        "email": "kelly.m.sater@gmail.com "
+      },
+      {
+        "name": "Philipson, Jack ",
+        "phone": null,
+        "dob": null,
+        "email": "bri.philipson@gmail.com "
+      },
+      {
+        "name": "Blaskewicz, Mason ",
+        "phone": null,
+        "dob": null,
+        "email": "cbrown@nyccharterschools.org"
+      },
+      {
+        "name": "Davis, Madoxx",
+        "phone": null,
+        "dob": null,
+        "email": "appice.davis@gmail.com "
+      },
+      {
+        "name": "Van Der Kam, Minna Rose ",
+        "phone": null,
+        "dob": null,
+        "email": "rikke.frojk@hotmail.com "
+      },
+      {
+        "name": "Olavarria, Gabriel ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Caraballo, Brandon ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Aniello, Isobel ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      },
+      {
+        "name": "Stehli, Peter ",
+        "phone": null,
+        "dob": null,
+        "email": null
+      }
+    ]
+  },
+  {
+    "team": "HOLA 5",
+    "key": "HO5MI",
+    "league": "middle",
+    "roster": [
+      {
+        "name": "Brody, Gabriel ",
+        "phone": null,
+        "dob": null,
+        "email": "jared@jaredbrody.com "
+      },
+      {
+        "name": "Cillie, Gabriel ",
+        "phone": null,
+        "dob": null,
+        "email": "bcillie@yahoo.com "
+      },
+      {
+        "name": "Leitner, Mac ",
+        "phone": null,
+        "dob": null,
+        "email": "kerry.rubin@turner.com "
+      },
+      {
+        "name": "Buckley, James ",
+        "phone": null,
+        "dob": null,
+        "email": "bethcbuckley@me.com "
+      },
+      {
+        "name": "Heidenry, Stephen ",
+        "phone": null,
+        "dob": null,
+        "email": "lori@heidenry.com "
+      },
+      {
+        "name": "Mhajan, Raya ",
+        "phone": null,
+        "dob": null,
+        "email": "rubymhajan@gmail.com "
+      },
+      {
+        "name": "Ojeda, Evan",
+        "phone": null,
+        "dob": null,
+        "email": "aguiterrez929@yahoo.com "
+      },
+      {
+        "name": "Schwartz, Nola ",
+        "phone": null,
+        "dob": null,
+        "email": "tonyacz@gmail.com "
+      },
+      {
+        "name": "Heyman, Alexander ",
+        "phone": null,
+        "dob": null,
+        "email": "slheyman@gmail.com "
+      },
+      {
+        "name": "Rivera, Ethan ",
+        "phone": null,
+        "dob": null,
+        "email": "garciasaer4@gmail.com "
+      },
+      {
+        "name": "Fernandez, Damarys",
+        "phone": null,
+        "dob": null,
+        "email": "josefernandez8099@gmail.com "
+      }
+    ]
+  },
+  {
+    "team": "HOLA 6",
+    "key": "HO6MI",
+    "league": "middle",
+    "roster": [
+      {
+        "name": "Tindale, Grady",
+        "phone": null,
+        "dob": null,
+        "email": "snickyv@yahoo.com "
+      },
+      {
+        "name": "Jensen, Dylan ",
+        "phone": null,
+        "dob": null,
+        "email": "kimberlybjensen@gmail.com "
+      },
+      {
+        "name": "Schultz, Declan ",
+        "phone": null,
+        "dob": " ",
+        "email": "alizon.schultz@rbccm.com "
+      },
+      {
+        "name": "Coen, Maddy ",
+        "phone": null,
+        "dob": null,
+        "email": "lexicoen@hotmail.com "
+      },
+      {
+        "name": "Cofre, Jr. Claurio ",
+        "phone": null,
+        "dob": null,
+        "email": "cmcofre@gmail.com "
+      },
+      {
+        "name": "Tseng, Hudson ",
+        "phone": null,
+        "dob": null,
+        "email": "jillinka@gmial.com "
+      },
+      {
+        "name": "Buckley, Nicholas ",
+        "phone": null,
+        "dob": null,
+        "email": "bethcbuckley@me.com "
+      },
+      {
+        "name": "Serpa, Gianessa",
+        "phone": null,
+        "dob": null,
+        "email": "mandichangela@gmail.com "
+      },
+      {
+        "name": "Pfeiffer, Kodi ",
+        "phone": null,
+        "dob": null,
+        "email": "yukopfeiffer@gmail.com "
+      },
+      {
+        "name": "Gibbs, Noah",
+        "phone": null,
+        "dob": null,
+        "email": "christiangibbs72@gmail.com "
+      },
+      {
+        "name": "Gettens, Stanley ",
+        "phone": null,
+        "dob": null,
+        "email": "guyg200@yahoo.com "
+      },
+      {
+        "name": "Gerstenbluth, Gavin ",
+        "phone": null,
+        "dob": null,
+        "email": "jared.gerstenbluth@gmail.com "
+      },
+      {
+        "name": "Madrid, Ariana ",
+        "phone": null,
+        "dob": null,
+        "email": "hlmadrid28@gmail.com "
+      },
+      {
+        "name": "Roderick, Michael ",
+        "phone": null,
+        "dob": null,
+        "email": "andyr@ukelite.com "
+      }
+    ]
+  },
+  {
+    "team": "HOLA - Grammar",
+    "league": "grammar",
+    "key": "NULL",
+    "roster": [
+      {
+        "name": "Fuller, Dylan ",
+        "phone": null,
+        "dob": null,
+        "email": "shari.fuller@carolehochman.com "
+      },
+      {
+        "name": "Heidenry, Jack ",
+        "phone": null,
+        "dob": null,
+        "email": "lori@heidenry.com "
+      },
+      {
+        "name": "Malfatti-Appice, Dagostino ",
+        "phone": null,
+        "dob": null,
+        "email": "appice.davis@gmail.com "
+      },
+      {
+        "name": "Mhajan, Jeeyan ",
+        "phone": null,
+        "dob": null,
+        "email": "rubymhajan@gmail.com "
+      },
+      {
+        "name": "O'Brien, Luke ",
+        "phone": null,
+        "dob": null,
+        "email": "chrissydw13@gmail.com "
+      },
+      {
+        "name": "Kirk, Maxwell ",
+        "phone": null,
+        "dob": null,
+        "email": "brigitteakirk@msn.com "
+      },
+      {
+        "name": "Kirk, Chasen ",
+        "phone": null,
+        "dob": null,
+        "email": "brigitteakirk@msn.com "
+      },
+      {
+        "name": "Neri, John ",
+        "phone": null,
+        "dob": null,
+        "email": "alexanderdneri@gmail.com "
+      },
+      {
+        "name": "Rivera, Alvin ",
+        "phone": null,
+        "dob": null,
+        "email": "garciasaer4@gmail.com "
+      },
+      {
+        "name": "Kolmer, Xavier",
+        "phone": null,
+        "dob": null,
+        "email": "melaniealberto@aol.co, "
+      },
+      {
+        "name": "Tseng, Niklas ",
+        "phone": null,
+        "dob": null,
+        "email": "jillinka@gmail.com "
+      },
+      {
+        "name": "Sullivan, Jack ",
+        "phone": null,
+        "dob": null,
+        "email": "erickasullivan@gmail.com "
+      },
+      {
+        "name": "Celiberti-Byam ",
+        "phone": null,
+        "dob": null,
+        "email": "dacnys@aol.com "
+      },
+      {
+        "name": "Sapirstein, Micah ",
+        "phone": null,
+        "dob": null,
+        "email": "akexstomp@hotmail.com "
+      },
+      {
+        "name": "Perez, Ruud",
+        "phone": null,
+        "dob": null,
+        "email": "janice.madrid@gmail.com "
+      },
+      {
+        "name": "Branco, Joseph ",
+        "phone": null,
+        "dob": null,
+        "email": "jenrock1@gmail.com "
+      },
+      {
+        "name": "Petrocelli, Giulio ",
+        "phone": null,
+        "dob": null,
+        "email": "soniapetrocelli@gmail.com "
+      },
+      {
+        "name": "Cando, Erick ",
+        "phone": null,
+        "dob": null,
+        "email": "zoilocando@hotmail.com "
+      },
+      {
+        "name": "Sargent, Jude ",
+        "phone": null,
+        "dob": null,
+        "email": "jen_hindman@hotmail.com "
+      },
+      {
+        "name": "Makoukian, Alex ",
+        "phone": null,
+        "dob": null,
+        "email": "viken_m@yahoo.com "
+      },
+      {
+        "name": "Chernicoff, Alex ",
+        "phone": null,
+        "dob": null,
+        "email": "anchern67@gmail.com "
+      },
+      {
+        "name": "Sanchez, Anthony ",
+        "phone": null,
+        "dob": null,
+        "email": "anthonymsanchez@optonline.net "
+      },
+      {
+        "name": "Kellaghan, Ciaran ",
+        "phone": null,
+        "dob": null,
+        "email": "finiankellaghan@gmail.com "
+      },
+      {
+        "name": "Figuroa, Neftali ",
+        "phone": null,
+        "dob": null,
+        "email": "neftalifigueroa05@gmail.com "
+      },
+      {
+        "name": "Messner, Seijan",
+        "phone": null,
+        "dob": null,
+        "email": "pmessner@optonline.net "
+      },
+      {
+        "name": "Bettua, Nikhil ",
+        "phone": null,
+        "dob": null,
+        "email": "rmatthai@alum.mit.edu"
+      }
+    ]
+  },
+  {
+    "team": "HOLA",
+    "key": "HOLAGI",
+    "league": "girls",
+    "roster": [
+      {
+        "name": "Gurtman, Sage ",
+        "phone": null,
+        "dob": null,
+        "email": "kidscommunicate@yahoo.com "
+      },
+      {
+        "name": "Kellaghan, Catrina-Eva ",
+        "phone": null,
+        "dob": null,
+        "email": "finiankellaghan@gmail.com "
+      },
+      {
+        "name": "Madrid, Ariana ",
+        "phone": null,
+        "dob": null,
+        "email": "hlmadrid28@gmail.com "
+      },
+      {
+        "name": "Molero-Aksamit, Andria ",
+        "phone": null,
+        "dob": null,
+        "email": "m_aksamit@yahoo.com "
+      },
+      {
+        "name": "Moran, Olivia ",
+        "phone": null,
+        "dob": null,
+        "email": "peta.moran@gmail.com "
+      },
+      {
+        "name": "Philipson, Sydney ",
+        "phone": null,
+        "dob": null,
+        "email": "bri.philipson@gmail.com "
+      },
+      {
+        "name": "Rotundo, Kate",
+        "phone": null,
+        "dob": null,
+        "email": "docbones7@aol.com "
+      },
+      {
+        "name": "Serpa, Gianessa ",
+        "phone": null,
+        "dob": null,
+        "email": "mandichangela@gmail.com "
+      },
+      {
+        "name": "Naranjo, Mia ",
+        "phone": null,
+        "dob": null,
+        "email": "scostomiris@yahoo.com "
+      },
+      {
+        "name": "Peralta, Lyzette",
+        "phone": null,
+        "dob": null,
+        "email": "gisellebrown29@gmai.com "
+      },
+      {
+        "name": "Connors, Dallas ",
+        "phone": null,
+        "dob": null,
+        "email": "dacquiri@hotmail.com "
+      },
+      {
+        "name": "Coen, Maddy ",
+        "phone": null,
+        "dob": null,
+        "email": "lexicoen@yahoo.com "
+      }
+    ]
+  }
+]

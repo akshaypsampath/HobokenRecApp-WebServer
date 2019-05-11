@@ -1,0 +1,322 @@
+[
+  {
+    "leagueName": "Middle",
+    "teams": [
+      {
+        "key": "AS5MI",
+        "name": "All Saints 5",
+        "myTeam": true,
+        "league": "middle"
+      },
+      {
+        "key": "EG5MI",
+        "name": "Elysian Charter Green 5",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "EW5MI",
+        "name": "Elysian Charter White 5",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "EG6MI",
+        "name": "Elysian Charter Green 6",
+        "myTeam": true,
+        "league": "middle"
+      },
+      {
+        "key": "HC5MI",
+        "name": "Hoboken Charter 5",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "HC6MI",
+        "name": "Hoboken Charter 6",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "CC5MI",
+        "name": "Connors/Calabro 5",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "CC6MI",
+        "name": "Connors/Calabro 6",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "HO5MI",
+        "name": "HOLA 5",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "HO6MI",
+        "name": "HOLA 6",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "HU6MI",
+        "name": "Hudson 6",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "WA6MI",
+        "name": "Wallace 6",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "SP5MI",
+        "name": "Stevens Purple 5",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "WB5MI",
+        "name": "Wallace Black 5",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "SR5MI",
+        "name": "Stevens Red 5",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "WG5MI",
+        "name": "Wallace Grey 5",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "AS6MI",
+        "name": "All Saints 6",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "MS6MI",
+        "name": "Mustard Seed 6",
+        "myTeam": false,
+        "league": "middle"
+      },
+      {
+        "key": "ST6MI",
+        "name": "Stevens 6",
+        "myTeam": false,
+        "league": "middle"
+      }
+    ]
+  },
+  {
+    "leagueName": "Grammar",
+    "teams": [
+      {
+        "key": "ECGGR",
+        "name": "Elysian Charter Green",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "ECWGR",
+        "name": "Elysian Charter White",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "ECKGR",
+        "name": "Elysian Charter Kelly Green",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "ASGR",
+        "name": "All Saints",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "HSWGR",
+        "name": "Hoboken Middle School Warriors",
+        "myTeam": true,
+        "league": "grammar"
+      },
+      {
+        "key": "HSKGR",
+        "name": "Hoboken Middle School Knicks",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "HSNGR",
+        "name": "Hoboken Middle School Nets",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "SRGR",
+        "name": "Stevens Red",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "SWGR",
+        "name": "Stevens White",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "HCGR",
+        "name": "Hoboken Charter - 7th Grade",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "HCGR",
+        "name": "Hoboken Charter - 8th Grade",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "HTGR",
+        "name": "HOLA - Grammar",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "HUDGR",
+        "name": "Hudson",
+        "myTeam": false,
+        "league": "grammar"
+      },
+      {
+        "key": "MSGR",
+        "name": "Mustard Seed",
+        "myTeam": true,
+        "league": "grammar"
+      }
+    ]
+  },
+  {
+    "leagueName": "Small Fry",
+    "teams": [
+      {
+        "key": "",
+        "name": "All Saints-Small Fry 3rd grade",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "All Saints-Small Fry 4th grade",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "Small Fry - PAL 4",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "Elysian Charter School - Small Fry 3rd Grade Green",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "Elysian Charter School - Small Fry 3rd Grade White",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "Elysian Charter School - Small Fry 4th Grade White",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "Elysian Charter School - Small Fry 4th Grade Green",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "HCS -3rd Grade Small Fry",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "HCS - 4th grade - Small Fry",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "HOLA - 3rd Grade - Small Fry",
+        "myTeam": false,
+        "league": "smallFry"
+      },
+      {
+        "key": "",
+        "name": "HOLA - 4th Grade - Small Fry",
+        "myTeam": false,
+        "league": "smallFry"
+      }
+    ]
+  },
+  {
+    "leagueName": "Girls",
+    "teams": [
+      {
+        "key": "ECGI",
+        "name": "Elysian Charter",
+        "myTeam": false,
+        "league": "girls"
+      },
+      {
+        "key": "HCGI",
+        "name": "Hoboken Charter",
+        "myTeam": false,
+        "league": "girls"
+      },
+      {
+        "key": "HMSGI",
+        "name": "Hoboken Middle School",
+        "myTeam": false,
+        "league": "girls"
+      },
+      {
+        "key": "HOLAGI",
+        "name": "HOLA",
+        "myTeam": true,
+        "league": "girls"
+      },
+      {
+        "key": "SRGI",
+        "name": "Stevens Red",
+        "myTeam": false,
+        "league": "girls"
+      },
+      {
+        "key": "SWGI",
+        "name": "Stevens White",
+        "myTeam": false,
+        "league": "girls"
+      }
+    ]
+  }
+]

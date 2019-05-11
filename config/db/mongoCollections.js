@@ -19,8 +19,8 @@ const getCollectionFn = collection => {
 /* Now, you can list your collections here: */
 module.exports = {
   TeamList: getCollectionFn("TeamList"),
-  Roster: getCollectionFn("Roster"),
-  Schedule: getCollectionFn("Schedule"),
+  Rosters: getCollectionFn("Rosters"),
+  Events: getCollectionFn("Events"),
   Users: getCollectionFn("Users"),
   Locations: getCollectionFn("Locations")
 };

@@ -5,7 +5,7 @@ const router = express.Router();
 const data = require("../data");
 const UsersData = data.users;
 
-const jwtSecret = require("../config/auth/jwtConfig");
+const jwtSecret = require("../config/auth/jwtSecret");
 const jwt = require("jsonwebtoken");
 const passport = require("passport");
 
@@ -14,7 +14,7 @@ router.post("/", async (req, res, next) => {
   //ERR CHECK
   console.log("check login Req!");
 
-  passport.authenticate('login', async(err, user, info) => {
+  passport.authenticate('login', {session:false}, async(err, user, info) => {
     if (err) {
       console.log(err);
     }
@@ -23,7 +23,7 @@ router.post("/", async (req, res, next) => {
       res.send(info.message);
     } else {
         const authUser = await UsersData.find(user.username);
-      req.logIn(authUser, async(user, err) => {
+      req.logIn(authUser, {session:false}, async(user, err) => {
         if(err) return;
         
         const token = jwt.sign({ user: authUser.username }, jwtSecret.secret);
@@ -58,7 +58,7 @@ router.post('/register', async (req, res, next) => {
     // console.log(next);
 
 
-    passport.authenticate('register', async(err, user, info) => {
+    passport.authenticate('register', {session:false}, async(err, user, info) => {
       if (err) {
         console.log(err);
       }
@@ -73,7 +73,7 @@ router.post('/register', async (req, res, next) => {
         console.log(formData)
         // console.log(formData.sport)
         const updatedUser = await UsersData.updateTypeSport(authUser._id, formData["type"], formData["sport"]);
-        req.logIn(updatedUser, async(user, err) => {
+        req.logIn(updatedUser, {session:false}, async(user, err) => {
             if(err) {throw err;}
             
             const token = jwt.sign({ user: authUser.username }, jwtSecret.secret);
