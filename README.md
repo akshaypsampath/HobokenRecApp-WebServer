@@ -45,6 +45,14 @@ npm start
 
 Now, you can go to https://localhost:3000/ to explore the website!
 
+### Registered Users
+* User #1 (type=ref)
+     u: frank
+     pw: pass1
+* User #2 (type=admin)
+     u: akshay
+     pw: good2
+
 
 
 ## Authors
