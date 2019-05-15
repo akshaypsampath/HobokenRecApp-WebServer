@@ -1,0 +1,18 @@
+<div class="details">
+  <div class="jumbotron">
+    <h1 class="display-4">Browse All Teams</h1>
+    <p class="lead">Click through to view more details</p>
+    <hr class="my-4">
+  
+  {{#each teamList}}  
+    <div class="card bg-light mb-3">
+      <div class="card-title"><a href="/teamList/{{_id}}">{{teamName}}</a></div>
+      <h6 class="card-subtitle mb-2 text-muted">{{#cap}}{{sport}}{{/cap}} - {{#cap}}{{league}}{{/cap}} League</h6> 
+    </div>
+  {{/each}}
+  </div>
+    <!--<form id="logout" method="get" action="/logout">
+        <button type="submit">Logout</button>
+    </form>-->
+
+</div>

@@ -1,0 +1,33 @@
+<div class="details">
+  <div class="jumbotron">
+    <h1 class="display-5">Log In</h1>
+    <p class="lead">Once logged in, Referees & Administrators can update Game Scores, edit Team Details, and more!</p>
+    <p class="small"><a href="/register">Create New User</a></p>
+    <hr class="my-4">
+  
+    <div class="card bg-light mb-3">
+        {{#if error}}
+        <h4 class="alert">HTTP 401: {{error}}</h4>
+        {{/if}}
+        <form id="login" method="post" action="/users/">
+
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password">
+            </div>
+            <br>
+            <input class="btn-default" type="submit" value="Submit">
+        
+        </form> 
+        <br>
+        
+    </div>
+
+  </div>
+
+</div>

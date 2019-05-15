@@ -1,0 +1,47 @@
+<div class="details">
+  
+  <div class="jumbotron">
+    <p class="small"><a href="/events"><< Click here to go back.</a></p>
+    <h1 class="display-5">{{event.team1}} vs. {{event.team2}}</h1>
+    <p class="lead">{{#timeFormat}}{{event.time}}{{/timeFormat}} - {{#dateFormat}}{{event.date}}{{/dateFormat}}</p>
+    <p class="lead">{{#cap}}{{event.sport}}{{/cap}} - {{#cap}}{{event.league}}{{/cap}} League</p>
+    <hr class="my-4">
+  
+
+    <div class="card bg-light mb-3">
+      <h6 class="card-subtitle mb-2 text-muted">Final Game Score</h6>
+      <div class="card-title centered"><a href="/teamList/{{event._idteam1}}">{{event.team1}}: {{#if event.team1score}}<span class="badge large badge-dark">{{event.team1score}}</span>{{/if}}</a></div>
+      <div class="card-title centered"><a href="/teamList/{{event._idteam2}}">{{event.team2}}: {{#if event.team2score}}<span class="badge large badge-dark">{{event.team2score}}</span>{{/if}}</a></div>
+      
+
+    </div>
+    {{#ifEquals user.type "referee"}}
+    <div class="card bg-light mb-3">
+        <form id="updateScore" method="post" action="/events/updateScore/{{event._id}}">
+        {{!-- <form id="updateScore" method="put" action="/events/{{user._id}}"> --}}
+        <h2>Update Game Scores:</h2><br>
+        <div class="row">
+            <div class="col">
+                <input type="hidden" name="id">
+                <label for="team1score">{{event.team1}}:</label>
+                <input type="number" class="form-control" name="team1score" id="team1score" placeholder="Enter Score Here">
+            </div>
+            <div class="col">
+                <label for="team1score">{{event.team2}}:</label>
+                <input type="number" class="form-control" name="team2score" id="team2score" placeholder="Enter Score Here">
+            </div>
+        </div>      
+        <br>
+        <div class="row">
+            <div class="col text-center">
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </div>
+        </div>
+    </form> 
+
+    </div>
+    {{/ifEquals}}
+
+  </div>
+
+</div>

@@ -1,0 +1,44 @@
+<div class="details">
+  <div class="jumbotron">
+    <p class="small"><a href="/teamList"><< Click here to go back.</a></p>
+    <h1 class="display-5">{{team.teamName}}</h1> 
+    {{#ifEquals user.type "admin"}}
+      <form id="updateName" method="post" action="/teamList/updateName/{{team._id}}">
+        <div class="row">
+          {{!-- <div class="col">
+            <label for="name">Change Name:</label>
+          </div> --}}
+          <div class="col">
+              
+              <input type="text" class="form-control" name="name" id="name" placeholder="Enter New Name">
+          </div>
+          <div class="col">
+              <input class="btn-default" type="submit" value="Save">
+          </div>
+        </div>      
+        <br>
+    </form> 
+    {{/ifEquals}}
+    <h6 class="card-subtitle mb-2 text-muted">{{#cap}}{{team.sport}}{{/cap}} - {{#cap}}{{team.league}}{{/cap}} League</h6> 
+    <p class="lead">More features coming soon!</p>
+    <hr class="my-4">
+
+    <div class="card bg-light mb-3">
+        <div class="card-title">
+
+        </div>
+        <h6 class="card-subtitle mb-2 text-muted">Season: {{team.season}}</h6> 
+        {{!-- <h6 class="card-subtitle mb-2 text-muted">Roster: {{team.season}}</h6>  --}}
+        <ul class="list-group">
+             <li class="list-group-item lead">Roster:</li>
+        {{#each team.playerList}}
+            <li class="list-group-item">{{playerName}}</li>
+        {{else}}
+            <li class="list-group-item">No Players Found!</li>
+        {{/each}}
+        </ul>
+    </div>
+
+  </div>
+
+</div>

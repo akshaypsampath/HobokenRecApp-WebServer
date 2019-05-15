@@ -10,14 +10,14 @@ module.exports = {
         if(!hashedPassword){
             throw "Must provide a hashedPassword";
         }
-        // if(!type){
-        //     throw "Must provide a user type";
-        // }
-        // if(!sport){
-        //     throw "Must provide a list of sports";
-        // }
-        // if (typeof username != 'string') throw "Must provide a username of type string";
-        // if (typeof hashedPassword != 'string') throw "Must provide a hashedPassword of type string";
+        if(!type){
+            throw "Must provide a user type";
+        }
+        if(!sport){
+            throw "Must provide a list of sports";
+        }
+        if (typeof username != 'string') throw "Must provide a username of type string";
+        if (typeof hashedPassword != 'string') throw "Must provide a hashedPassword of type string";
 
 
 
@@ -26,7 +26,9 @@ module.exports = {
         let newUser = {
             
             username: username,
-            hashedPassword: hashedPassword 
+            hashedPassword: hashedPassword, 
+            type: type, 
+            sport: sport
         };
 
         const insertData = await UsersCollection.insertOne(newUser);
@@ -47,12 +49,7 @@ module.exports = {
         const UsersCollection = await Users();
         const tempUser = await UsersCollection.findOne({ username: username });
 
-        
-        //if (tempUser === null) throw "No user with that Id";
-        //console.log(tempAnimal);
         return tempUser;
-
-
     },
     read: async(id) => {
         console.log(typeof id)

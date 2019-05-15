@@ -60,7 +60,7 @@ module.exports = {
         const eventsCollection = await events();
 
         const prevEntry = await eventsCollection.find({_idteam1:team1id, _idteam2:team2id, date: dateObj, time:time, location: location, type: type}).toArray();
-        console.log("prevEntry: ",prevEntry);
+        // console.log("prevEntry: ",prevEntry);
         if(prevEntry.length >0){ //avoid duplicate entries
             // console.log(await teamListCollection.find({teamName: teamName, sport: sport, season: season}).toArray().size());
             console.log("team already exists in this collection")
@@ -77,6 +77,42 @@ module.exports = {
         const event = await module.exports.read(idStr);
         return event;
     },
+    updateScore: async(id, t1score, t2score) =>{
+        
+        if (!id) throw "Must provide a valid Id";
+        if (typeof id != 'string') throw "Must provide an Id of string type";
+        if(!t1score) throw "Must provide a score for team 1";
+        if(!t2score) throw "Must provide a score for team 2";
+        if(typeof t1score != 'string') throw "Team 1 Score must be type number";
+        if(typeof t2score != 'string') throw "Team 2 Score must be type number";
+
+        const idObj = new ObjectId(id)
+        const t1scoreNum = Number(t1score);
+        const t2scoreNum = Number(t2score);
+        // console.log(id, typeof id);
+        // console.log(typeof idObj);
+        // console.log(typeof ObjectId("5cd2556321e8984e9db27f79"))
+        // console.log(t1scoreNum);
+        // console.log(t2scoreNum);
+        // console.log("UPDATESCORE")
+
+        const eventsCollection = await events();
+        // const tempEvent = await eventsCollection.findOne({ _id: idObj });
+        const tempEvent = await module.exports.read(id) 
+        // const tempEvent = await eventsCollection.findOne({ _id: ObjectId("5cd2556321e8984e9db27f79") });
+        // console.log(typeof tempEvent._id)
+        if (tempEvent === null) throw "No Team with that Id";
+
+        const updatedData = await eventsCollection.updateOne({ _id: idObj }, {$set: {team1score:t1scoreNum, team2score: t2scoreNum}});//, team2score: t2scoreNum, type:16
+        // console.log(updatedData)
+        if (updatedData.modifiedCount === 0) {
+            throw "could not update Team successfully";
+        }
+        const modObj = await module.exports.read(id);
+        console.log(modObj)
+
+        return modObj;
+    },
     read: async(id) => {
         if (!id) throw "Must provide a valid Id";
         if (typeof id != 'string') throw "Must provide an Id of string type";
@@ -86,6 +122,13 @@ module.exports = {
         const eventsCollection = await events();
         const tempEvent = await eventsCollection.findOne({ _id: idObj });
 
+        let team1 = await teamListData.read(tempEvent._idteam1.toString());
+        let team2 = await teamListData.read(tempEvent._idteam2.toString());
+        tempEvent.team1 = team1.teamName;
+        tempEvent.team2 = team2.teamName;
+        tempEvent.league = team1.league;
+        tempEvent.sport = team1.sport;
+        tempEvent.season = team1.season;
         
         // if (tempEvent === null) throw "No Event with that Id";
         //console.log(tempAnimal);
@@ -115,7 +158,17 @@ module.exports = {
 
 
         const tempEvent = await eventsCollection.find({}).toArray();
-        //console.log(animalData)
+        // console.log(tempEvent);
+        tempEvent.forEach(async(element) => {
+            let team1 = await teamListData.read(element._idteam1.toString());
+            let team2 = await teamListData.read(element._idteam2.toString());
+            element.team1 = team1.teamName;
+            element.team2 = team2.teamName;
+            element.league = team1.league;
+            element.sport = team1.sport;
+            element.season = team1.season;
+          });
+        // console.log(tempEvent);
 
         // for(let i=0; i<tempPost.length; i++){
         //     //console.log( tempPost[i].author.toString());

@@ -1,7 +1,7 @@
 const mongoCollections = require("../config/db/mongoCollections");
 const teamList = mongoCollections.TeamList;
 const { ObjectId } = require('mongodb');
-const rostersData = require("./rosters");
+// const rostersData = require("./rosters");
 
 module.exports = {
     test: async()=>{
@@ -65,7 +65,7 @@ module.exports = {
 
         const teamListCollection = await teamList();
         const tempTeam = await teamListCollection.findOne({ _id: idObj });
-        console.log(tempTeam)
+        // console.log(tempTeam)
         
         // if (tempTeam === null) throw "No team with that Id";
         //console.log(tempAnimal);
@@ -128,7 +128,7 @@ module.exports = {
         const modObj = await module.exports.read(id);
         console.log(modObj)
 
-        rostersData.updateName(id, teamName); //updates teamName in Rosters as well
+        // rostersData.updateName(id, teamName); //updates teamName in Rosters as well
 
         return modObj;
     },
