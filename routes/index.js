@@ -1,7 +1,6 @@
 const teamListRoutes = require("./teamList");
 const eventsRoutes = require("./events");
 const usersRoutes = require("./users");
-//const LocationRoutes = require("./Location");
 var passport = require('passport');
 var passportAuth = require("../config/auth/passport");
 

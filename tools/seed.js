@@ -1,4 +1,6 @@
 //seed from app data files
+const bcrypt =require('bcrypt');
+const BCRYPT_SALT_ROUNDS = 12;
 const data = require("../data");
 
 const teamListFile = require("./seedFiles/teamList");
@@ -8,7 +10,40 @@ const scheduleFile = require("./seedFiles/basketballMasterScheduleTest")
 async function seed() {
     
     console.log("seed")
-    // console.log(teamListFile);
+
+    //create ref user
+    let username = "frank";
+    let password = "pass1";
+    let userType = "ref"; 
+    let userSport = ["basketball", "baseball"];
+
+    await bcrypt.hash(password, BCRYPT_SALT_ROUNDS,  async(err, hashedPassword)=>{
+        if(err) return;
+        console.log('> bcrypt');
+        const newUser = await data.users.create(username, hashedPassword, userType, userSport);
+        // const updatedUser = await UsersData.updateTypeSport(newUser._id, userType, userSport);
+        console.log('> routes/users/ user created');
+        console.log(newUser)
+        // return (null, newUser);//newUser;//done
+    });
+    console.log("*****")
+
+    //create admin user
+    const username2 = "akshay";
+    const password2 = "good2";
+    const userType2 = "admin"; 
+    const userSport2 = ["basketball"];
+
+    await bcrypt.hash(password2, BCRYPT_SALT_ROUNDS,  async(err, hashedPassword2)=>{
+        if(err) return;
+        console.log('> bcrypt');
+        const newUser = await data.users.create(username2, hashedPassword2, userType2, userSport2);
+        // const updatedUser = await UsersData.updateTypeSport(newUser._id, userType, userSport);
+        console.log('> routes/users/ user created');
+        console.log(newUser)
+        // done (null, newUser);//newUser;//done
+    });
+
     
 
     // Populate TeamList Collection
@@ -58,6 +93,7 @@ async function seed() {
         }
     }
 
+    
     // await data.teamList.test();
     
     // const team = await data.teamList.read("5cd1b56f022d643dcd201ba3");
