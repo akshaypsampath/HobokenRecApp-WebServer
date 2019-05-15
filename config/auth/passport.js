@@ -12,9 +12,7 @@ const UsersData = data.users;
 const BCRYPT_SALT_ROUNDS = 12;
 
 const passport = require('passport'),
-  LocalStrategy = require('passport-local').Strategy,
-  JWTstrategy = require('passport-jwt').Strategy,
-  ExtractJWT = require('passport-jwt').ExtractJwt;
+  LocalStrategy = require('passport-local').Strategy;
   
   module.exports = function(passport) {
     // passport session setup, required for persistent login sessions

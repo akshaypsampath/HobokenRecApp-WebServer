@@ -15,7 +15,7 @@
       
 
     </div>
-    {{#ifEquals user.type "referee"}}
+    {{#ifEquals user.type "ref"}}
     <div class="card bg-light mb-3">
         <form id="updateScore" method="post" action="/events/updateScore/{{event._id}}">
         {{!-- <form id="updateScore" method="put" action="/events/{{user._id}}"> --}}

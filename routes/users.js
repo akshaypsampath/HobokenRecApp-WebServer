@@ -7,7 +7,7 @@ const data = require("../data");
 const UsersData = data.users;
 
 // const jwtSecret = require("../config/auth/jwtSecret");
-const jwt = require("jsonwebtoken");
+// const jwt = require("jsonwebtoken");
 const passport = require("passport");
 const xss = require("xss");
 

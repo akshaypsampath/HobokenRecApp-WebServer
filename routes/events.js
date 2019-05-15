@@ -3,6 +3,7 @@ const router = express.Router();
 const data = require("../data");
 const eventsData = data.events;
 const teamListData = data.teamList;
+const xss = require("xss");
 
 
 router.get("/", async (req, res) => {
